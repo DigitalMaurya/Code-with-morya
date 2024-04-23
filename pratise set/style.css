@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 55px;
+    padding: 5px;
+
+}
+header{
+    background-color: rgb(10, 255, 30);
+    height: 30px;
+}
+#second{
+    height: 40px;
+    width: 50px;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: darkcyan;
+    margin: 30px;
+    display: inline-block;
+}
+
+#container{
+    border: 5px solid black;
+}
+    
+

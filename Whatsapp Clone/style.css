@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 60px;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1
+    background-color:#befc03;
+}
+.myntra_home {
+    height: 53px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+
+.nav_bar{
+    display: flex;
+    min-width: 900px;
+    justify-content:space-evenly;
+    
+
+} 
+.nav_bar a {
+    font-size: 15px;
+    letter-spacing: .2px ;
+    color:#282c3f;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align:left;
+    padding: 28px 0;
+    border-bottom: 10px solid #ffff;
+
+}
+.nav_bar a:hover{
+    border-bottom:4px solid #dbdf15;
+}
+
+.banner_image{
+    width: 1500px;
+    height: 1000px;
+    padding-top: 20px;
+
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0  10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
