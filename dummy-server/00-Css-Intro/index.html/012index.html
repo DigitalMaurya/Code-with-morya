@@ -1,0 +1,332 @@
+.html{
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    body{
+        
+        background-color: whitesmoke;
+        /* cursor: pointer; */
+        
+    }
+    body::-webkit-scrollbar{
+        display:none;
+        scrollbar-width:none;
+    }
+    header, main{
+        width: 98%;
+        margin: 0 auto;
+    }
+    nav{
+        /* width: 100vw; */
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        height: 65px;
+    
+    
+    
+        & .logo {
+                width: 120px;
+                text-align: right;
+        
+                & p:first-child {
+                    color: blue;
+                    margin-left: 10px;
+                    font-style: italic;
+                    font-weight: bolder;
+                    font-size: 18px;
+                }
+        
+                & p:last-child {
+                    color: grey;
+                    font-size: 14px;
+                    font-style: italic;
+                    
+        
+                    & span {
+                        color: orange;
+                    }
+                }
+            }
+            & .search{
+                display: flex;
+                
+                & label{
+                    display: flex;
+                    align-items: center;
+                    & a {
+                    
+                            text-decoration: none;
+                    
+                            padding: 10px 9px;
+                            background-color: whitesmoke;
+                            border-top-left-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                    
+                            & i {
+                                font-size: 1.2rem;
+                            }
+                        }
+                }
+                & input{
+                    width: 700px;
+                    font-size: 1.2rem;
+                    padding: 9px 0;
+                    border: none;
+                    background-color: whitesmoke;
+                    
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    outline: none;
+    
+                }
+            }
+            & .dots{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                width: 40px;
+                height: 40px;
+                border-radius: 6px;
+    
+                &:hover{
+                    background-color: whitesmoke;
+                    box-shadow: 0 0 1px black;
+                    box-sizing: border-box;
+                
+                }
+    
+                & span{
+                    display: inline-block;
+                    height: 3px;
+                    width: 3px;
+                    border-radius: 50%;
+                    background-color: grey;
+                    
+                }
+            }
+    
+    
+    }
+    
+    header{
+    
+    
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+         */
+        
+        
+        
+        & .categories{
+            word-wrap: break-word;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            /* width: 98%; */
+            margin: 10px auto;
+            height: 125px;
+            /* box-shadow: 0 0 10px 0px lightgray; */
+            background-color: white;
+    
+            & img{
+                width: 60px;
+                display: block;
+                margin: 0 auto;
+            }
+    
+        }
+    }
+    
+    .hero{
+    
+        margin-top: 16px;
+    
+        & .imgs{
+            position: relative;
+    
+            & button{
+                position: absolute;
+                border: none;
+                background-color: white;
+                padding: 35px 17px;  
+                top: 32%;
+                font-size: 20px;
+                color: gray;
+            }
+            & button:first-child{
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            & button:last-child{
+                
+                right: 0px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+    
+            }
+    
+            & img{
+                width: 100%;
+            }
+        }
+    }
+    
+    .electronic-devices,.dailyuses,.healthcare{
+    
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 16px;
+    
+        
+    
+        & .content{
+            overflow:auto;
+            width:100%;
+            height: 365px;
+            background-color: white;
+            /* padding: 10px; */
+    
+            & .name {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    padding: 30px 20px;
+    
+                    & h2{
+                        
+                        font-size: 20px;
+                    }
+                    & button {
+                        background-color: blue;
+                        font-size: 20px;
+                        padding: 1px 9px;
+                        border-radius: 999px;
+                        color: white;
+                        border: none;
+                    }
+                }
+            
+    
+            & .items{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                margin-left: 15px;
+                
+    
+                & .item {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+                        box-shadow: 0 0 1px grey;
+                        height: 260px;
+                        width: 200px;
+                        padding: 15px;
+                        & img{
+                            
+                            transition: .1s linear;
+                        }
+                        & img:hover{
+                            scale: 1.05;
+                        }
+                        & p{
+                            text-align: center;
+                        }
+                    }
+            }
+            
+        }
+    }
+    
+    
+    
+    
+    
+    footer{
+        margin-top: 16px;
+        background-color: rgb(33, 33, 33);
+        color: white;
+        flex-wrap: wrap;
+        & .footnav{
+            padding: 50px;
+            display: flex;
+            align-items: flex-start;
+            gap: 170px;
+    
+            & .implinks{
+                display: flex;
+                align-items: flex-start;
+                gap: 70px;
+    
+                & ul li:first-child{
+                    line-height: 30px;
+                    color: grey;
+                }
+    
+                & ul li{
+                    list-style-type: none;
+                    text-wrap: nowrap;
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: bold;
+                }
+            }
+            & .vertical{
+                display: inline-block;
+                width: 1px;
+                height: 150px;
+                background-color: grey;
+            }
+        
+            & .siteinfo{
+                display: flex;
+                gap: 50px;
+        
+                & .mail, .address{
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+    
+                & .mail p:first-child , .address p:first-child{
+                    color: grey;
+                }
+        
+            }
+        }
+    
+        & .foot{
+            border-top: 1px solid grey;
+            padding: 25px;
+            font-size: 12px;
+            
+            & ul{
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 95%;
+                & li{
+                    list-style-type: none;
+                }
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,28 @@
+/* #box{
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: crimson;
+    /* shorthand */
+    /* background: yellowgreen url(1200x600wa.png) no-repeat center; */ */
+
+    
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+}
+/* #box2{
+    background-color: aqua royalblue black;
+    text-align: left;
+}
+#box3{
+    background-color: aqua royalblue black;
+    text-align: left;
+}
+#box4{
+    background-color: aqua royalblue black;
+    text-align: left;
+} */

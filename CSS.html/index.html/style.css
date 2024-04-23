@@ -1,0 +1,17 @@
+.container{
+height: 200px;
+border: 2px solid black;
+}
+.box{
+    border: 2px solid green;
+    background-color: darkorange;
+
+}
+
+/* .box{ */
+    /* border: 2px solid black; */
+    /* height: 300px; */
+    /* width: 300px; */
+    /* background-image: linear-gradient( red, green); */
+    /* background-image: linear-gradient( to left,  green, blue, pink); */
+    /* font-size: large; */

@@ -1,0 +1,19 @@
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient( red, green);
+    background-image: linear-gradient( to left,  green, blue, pink);
+    font-size: large;
+    
+}
+.Mydiv{
+    border: 2px solid black;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle, blue,orange, green, red);
+    /* background-image: linear-gradient( to left,  green, blue, pink); */
+
+
+}
